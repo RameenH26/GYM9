@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: lavenderblush;
+}
+.homeimg{
+    text-align: center;
+    width: 1250px;
+    height: 450px;
+    animation: 5s infinite;
+}
+.redtext{
+    color: darkred;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.logo{
+    width: 140px;
+    height: 140px;
+}
+.logo2{
+    width: 70px !important;
+    height: 70px !important;
+}
+.gym-images{
+    width: 380px;
+    height: 380px;
+}
+
+.image-section{
+    
+  display: flex;
+  justify-content: center;
+}
+.section-style{
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.line{
+width: 100px;
+    height: 3px;
+    background-color: purple;
+    margin-left: 580px;
+    margin-right: 525px;
+}
+.contactIcons{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.card {
+    padding-left:
+    width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+    }
+.card .img-top {
+        visibility: hidden;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+.card:hover .img-top {
+        visibility: visible;
+        display: inline;
+    }
+.card:hover .img-bottom{
+    visibility: hidden;
+} 
+
+
+
+.fade-in {
+animation: fadeIn ease 5s;
+-webkit-animation: fadeIn ease 5s;
+-moz-animation: fadeIn ease 5s;
+-o-animation: fadeIn ease 5s;
+-ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
